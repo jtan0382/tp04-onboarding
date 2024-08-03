@@ -1,0 +1,10 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+
+}
+#map {
+    height: calc(100vh - 100px); /* Adjust 200px based on other elements' total height */
+}
